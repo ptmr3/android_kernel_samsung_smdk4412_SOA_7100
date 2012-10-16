@@ -87,3 +87,6 @@ obj-$(CONFIG_MACH_M0_CTC)   += cw_tty.o
 obj-$(CONFIG_MOBICORE_SUPPORT)  += tzic.o
 
 obj-$(CONFIG_TOUCH_WAKE)  += touch_wake.o
+
+# TouchBooster Control
+obj-$(CONFIG_TOUCHBOOST_CONTROL)  += touch_boost_control.o
